@@ -110,8 +110,8 @@ def display_form_inputs():
 def print_form_values():
         resp = ""
         for field in request.form.keys():
-                resp +="<b>{key}</b>:{value}<br>".format(key=field,
-        value=request.form[field])
+                resp += "<b>{key}</b>: {value}<br>".format(key=field,
+                value=request.form[field])
         return resp
         
         app.run()
