@@ -34,7 +34,7 @@ def display_form_inputs():
             br {margin-bottom: 30px;}
         </style>
 
-        <form method="POST"></form>
+        <form method="POST">
 
         <label>type=text
             <input name="user-name" type="text"  />
